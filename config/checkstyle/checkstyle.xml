@@ -4,12 +4,7 @@
         "https://checkstyle.org/dtds/configuration_1_3.dtd">
 
 <!--
-    Checkstyle configuration that checks the Google coding conventions from Google Java Style
-    that can be found at https://google.github.io/styleguide/javaguide.html.
-    Checkstyle is very configurable. Be sure to read the documentation at
-    http://checkstyle.sf.net (or in your downloaded distribution).
-    To completely disable a check, just comment it out or delete it from the file.
-    Authors: Max Vetrenko, Ruslan Diachenko, Roman Ivanov.
+    Checkstyle configuration that checks the Akarion coding conventions based on the Google Java Style and adapted by Akarion Developers.
  -->
 
 <module name = "Checker">
@@ -249,5 +244,6 @@
             <property name="exceptionVariableName" value="expected"/>
         </module>
         <module name="CommentsIndentation"/>
+        <module name="SuppressionCommentFilter"/>
     </module>
 </module>
